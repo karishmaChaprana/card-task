@@ -1,0 +1,149 @@
+html,
+body,
+.container {
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+ul {
+    height: 100%;
+    width: 100%;
+}
+
+ul,
+li,
+.logo,
+.nav,
+a,
+img,
+h1 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: 1 10%;
+    height: 100%;
+    border-bottom: 1px solid red;
+}
+
+.section {
+    flex: 1 90%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo,
+.nav {
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.nav {
+    margin-top: 20px;
+    direction: rtl;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+ul li a {
+    margin: 5px;
+    background-color: aqua;
+    padding: 1vw;
+    /* border: 1px solid red; */
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
+.leftSec,
+.rightSec {
+    flex: 1;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 20px;
+    width: 90%;
+    border: 1px solid gray;
+}
+
+.card1-1,
+.card2-1,
+.card3-1,
+.card4-1,
+.card5-1,
+.card6-1 {
+    flex: 1 10%;
+    border-bottom: 2px solid gray;
+}
+
+.card1-2,
+.card2-2,
+.card3-2,
+.card4-2,
+.card5-2,
+.card6-2 {
+    flex: 1 60%;
+    border-bottom: 2px solid gray;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.card1-3 {
+    flex: 1 30%;
+    border-bottom: 2px solid gray;
+}
+
+
+/* .card1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+.card1-1,
+.card1-2,
+.card1-3 {
+    flex: 1;
+    border-bottom: 1px solid lightgray;
+} */
